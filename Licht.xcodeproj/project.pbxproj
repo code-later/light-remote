@@ -13,11 +13,12 @@
 		681F13AF18A39D8B003AE8B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 681F13AD18A39D8B003AE8B4 /* Credits.rtf */; };
 		681F13B218A39D8B003AE8B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F13B118A39D8B003AE8B4 /* AppDelegate.m */; };
 		681F13B518A39D8B003AE8B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681F13B318A39D8B003AE8B4 /* MainMenu.xib */; };
-		681F13B718A39D8B003AE8B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681F13B618A39D8B003AE8B4 /* Images.xcassets */; };
 		681F13BE18A39D8B003AE8B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681F13BD18A39D8B003AE8B4 /* XCTest.framework */; };
 		681F13BF18A39D8B003AE8B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681F139E18A39D8B003AE8B4 /* Cocoa.framework */; };
 		681F13C718A39D8B003AE8B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 681F13C518A39D8B003AE8B4 /* InfoPlist.strings */; };
 		681F13C918A39D8B003AE8B4 /* LichtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F13C818A39D8B003AE8B4 /* LichtTests.m */; };
+		681F13D318A39FE4003AE8B4 /* firestar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681F13D218A39FE4003AE8B4 /* firestar.jpg */; };
+		681F13EC18A3B21A003AE8B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681F13EB18A3B21A003AE8B4 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +45,13 @@
 		681F13B018A39D8B003AE8B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		681F13B118A39D8B003AE8B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		681F13B418A39D8B003AE8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		681F13B618A39D8B003AE8B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		681F13BC18A39D8B003AE8B4 /* LichtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LichtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681F13BD18A39D8B003AE8B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		681F13C418A39D8B003AE8B4 /* LichtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LichtTests-Info.plist"; sourceTree = "<group>"; };
 		681F13C618A39D8B003AE8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		681F13C818A39D8B003AE8B4 /* LichtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LichtTests.m; sourceTree = "<group>"; };
+		681F13D218A39FE4003AE8B4 /* firestar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firestar.jpg; sourceTree = "<group>"; };
+		681F13EB18A3B21A003AE8B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,7 @@
 				681F13B018A39D8B003AE8B4 /* AppDelegate.h */,
 				681F13B118A39D8B003AE8B4 /* AppDelegate.m */,
 				681F13B318A39D8B003AE8B4 /* MainMenu.xib */,
-				681F13B618A39D8B003AE8B4 /* Images.xcassets */,
+				681F13EB18A3B21A003AE8B4 /* Images.xcassets */,
 				681F13A518A39D8B003AE8B4 /* Supporting Files */,
 			);
 			path = Licht;
@@ -127,6 +129,7 @@
 		681F13A518A39D8B003AE8B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				681F13D218A39FE4003AE8B4 /* firestar.jpg */,
 				681F13A618A39D8B003AE8B4 /* Licht-Info.plist */,
 				681F13A718A39D8B003AE8B4 /* InfoPlist.strings */,
 				681F13AA18A39D8B003AE8B4 /* main.m */,
@@ -231,7 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				681F13A918A39D8B003AE8B4 /* InfoPlist.strings in Resources */,
-				681F13B718A39D8B003AE8B4 /* Images.xcassets in Resources */,
+				681F13EC18A3B21A003AE8B4 /* Images.xcassets in Resources */,
+				681F13D318A39FE4003AE8B4 /* firestar.jpg in Resources */,
 				681F13AF18A39D8B003AE8B4 /* Credits.rtf in Resources */,
 				681F13B518A39D8B003AE8B4 /* MainMenu.xib in Resources */,
 			);
